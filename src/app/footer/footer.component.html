@@ -1,0 +1,40 @@
+<section id="contato">
+    <div class="container">
+      <h2 class="title-section gray text-center">Entre em contato</h2>
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="row">
+            <img src="../../assets/icon/icon-whatsapp.svg" alt="WhatsApp" width="50px" height="50px">
+            <span class="ml-2 wp">Whatsapp <br> 11 95941-5861</span>
+            <a class="wp mt-4" href="mailto:contato@hipnoedu.com.br">contato@hipnoedu.com.br</a>
+          </div>
+
+          <div class="row">
+            <div class="text-content mt-4">
+              Av. Queiroz Filho, 1700 <br>
+              Vila Hamburguesa <br>
+              Condomínio Villa Lobos Office Park, <br>
+              Torre C - Life - Sala 8 <br>
+              São Paulo - SP - 05319-000 <br>
+              <button class="mt-3 btn small">Ver Mapa</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-8">
+          <div class="form-group">
+            <form action="" method="post">
+              <input id="nome" type="text" placeholder="Nome" class="w-100 field" name="nome" required>
+              <input id="telefone" type="number" placeholder="Telefone" class="field mt-2 mr-2" name="telefone"  style="width: 48.7%" required>
+              <input id="email" type="email" placeholder="E-Mail" class="field w-50 " name="email" required>
+              <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" class="w-100 mt-2 field textarea" required></textarea>
+              <input type="button" value="Enviar" class="ml-auto d-block btn cta yallow mt-2" (click)="postForm($event)">
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+</section>

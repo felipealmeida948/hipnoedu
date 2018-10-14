@@ -1,0 +1,22 @@
+@import '../../scss/styles.scss';
+
+.wp{
+  color: $color-font-default;
+  font-family: Raleway-Bold;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.field{
+  height: 44px;
+  font-family: Raleway-Regular;
+  font-size: 16px;
+  border: 0;
+  padding: 0 15px 0 15px;
+
+  &.textarea{
+    padding: 15px;
+    max-height: 135px;
+    height: 100%;
+  }
+}

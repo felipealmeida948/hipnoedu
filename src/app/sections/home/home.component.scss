@@ -1,0 +1,45 @@
+@import '../../../scss/styles.scss';
+
+.bg {
+  /* The image used */
+  background-image: url("../../../assets/img/banner_corte.png");
+
+  /* Full height */
+  height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 12%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.btn{
+  &.cta{
+      height: 50px;
+      width: 250px;
+      vertical-align: middle;
+      border: 1px solid $color-primary;
+      border-radius: 25px;
+      color: $color-primary;
+      font-family: Raleway-Medium;
+      font-size: 22px;
+  }
+}
+
+
+.home{
+  .title{
+      font-family: Raleway-Bold;
+      font-size: 39px;
+      color: $color-font-default;
+  }
+}

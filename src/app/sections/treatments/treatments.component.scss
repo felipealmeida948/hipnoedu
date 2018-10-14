@@ -1,0 +1,16 @@
+@import '../../../scss/styles.scss';
+
+.box-item{
+  height: 65px;
+  max-width: 215px;
+  width: 100%;
+  background-color: $color-primary;
+  color: $color-font-default;
+  font-family: Raleway-Regular;
+  font-size: 22px;
+
+  span{
+    height: auto;
+    margin: auto;
+  }
+}

@@ -1,0 +1,50 @@
+.nav-h{
+  background-color: $color-default !important;
+  border-bottom: 1px solid $color-border;
+
+  font-family: Raleway-Regular;
+  font-size: 16px;
+  color: $color-font-default;
+
+  .whats{
+      border: 1px solid $color-primary;
+      border-radius: 25px;
+      height: 30px;
+      font-family: Raleway-Bold;
+
+      padding: 2px;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+
+      margin-top: 5px;
+
+      img{
+          margin-right: 5px;
+      }
+  }
+
+}
+
+app-about, app-doubts, app-treatments, app-depositions, app-team, app-footer{
+  display: block;
+  padding: 50px 0 50px 0;
+}
+
+app-doubts{
+  background-color: #E6E6E8;
+}
+
+app-treatments{
+  background-image: url(/src/assets/img/IMG_corte.jpg);
+  background-size: cover;
+}
+
+app-media{
+  background: #EFEFEF;
+  height: 95px;
+  display: block;
+}
+
+app-footer{
+  background: $color-primary;
+}
